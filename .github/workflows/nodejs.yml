@@ -25,7 +25,6 @@ jobs:
       - name: Run tests
         run: npm test
 
-	
   deploy-to-staging:
     needs: build-and-test
     runs-on: ubuntu-latest
